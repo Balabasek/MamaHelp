@@ -5,7 +5,6 @@
 #define GETFLAG(k) (registr >> (k - 1)) & 0x1
 #define SET1(K) registr | (1 << (k - 1))
 #define SET0(k) registr &(~(1 << (k - 1)))
-#define INVERT(k) registr ^ (1 << (k - 1))
 #define M 1 //Выход за границы
 #define C 2 // Неверная команда
 #define P 3 // Переполнение
