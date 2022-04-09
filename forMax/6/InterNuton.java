@@ -73,8 +73,8 @@ public class InterNuton {
         }
         Double x;
         Double y;
-        // А здесь мы с шагом 1.0 смотрим чему будет равна функция в точке i. То есть в точке 1.0, 2.0, 3.0, и т.д
-        for (Double i = 1.0; i < X.length; i += 1) {
+        // А здесь мы с шагом 2.0 смотрим чему будет равна функция в точке i. То есть в точке 1.0, 3.0, 5.0, и т.д
+        for (Double i = 1.0; i < X.length; i += 2) {
             x = i;
             y = getValue(X, Y, x);
             System.out.println("x = " + x + " y = " + y);
